@@ -1,0 +1,74 @@
+.App {
+  margin-top: 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+canvas {
+  height: auto;
+  max-width: 800px;
+}
+
+.table-container {
+  max-width: calc(1000px + 30px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+.custom-table {
+  display: table;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table-row {
+  display: table-row;
+  border: #333333 solid 1px;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 15px;
+  color: #333333;
+}
+
+.bold-gray {
+  font-weight: bold;
+  color: gray;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.pagination {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+.horizontal-line {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #e2e2e2;
+}
+
+@media screen and (max-width: 780px) {
+  .table-container {
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    /* margin: 0 0 1em; */
+  }
+}
